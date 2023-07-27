@@ -12,7 +12,7 @@ export default function GetUsers(){
     }
     return(
         <>
-            <h1 className='heading'>Ready to get data from API? 😀</h1>
+            <h1 className='heading'>Get data form API</h1>
             <ShowUsers users = {users} loadUsers = {loadUsers} Loading={isLoading} />        
         </>
     )

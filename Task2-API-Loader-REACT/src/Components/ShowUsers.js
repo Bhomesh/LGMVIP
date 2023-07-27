@@ -3,7 +3,7 @@ export default function showUsers({users,loadUsers, Loading}){
     console.log(typeof(users))
     return(
         <>
-            <button onClick={loadUsers} className="btn">Click Me to Call Api</button>
+            <button onClick={loadUsers} className="btn">API Call</button>
             <div className='snail'>
                 <img src="https://img.pikbest.com/png-images/20190918/cartoon-snail-loading-loading-gif-animation_2734139.png!bw340" className={Loading?"loading":"unloading"}/>
             </div>
