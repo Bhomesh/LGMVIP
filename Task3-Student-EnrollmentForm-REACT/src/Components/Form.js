@@ -16,9 +16,9 @@ export default function Form({formData,handleChange,handleSkills,handleSubmit,cl
                 <input type="radio" name="gender" onChange={handleChange} value="Female"/><label>Female</label>
             </label><br/>
             <label>Skills : 
-                <input type="checkbox" name="skills" onChange={handleSkills} value="HTML" className="skills"/><label>HTML</label>
-                <input type="checkbox" name="skills" onChange={handleSkills} value="CSS" className="skills"/><label>CSS</label>
-                <input type="checkbox" name="skills" onChange={handleSkills} value="Java" className="skills"/><label>Java</label>
+                <input type="checkbox" name="skills" onChange={handleSkills} value="DevOps" className="skills"/><label>DevOps</label>
+                <input type="checkbox" name="skills" onChange={handleSkills} value="kubernetes" className="skills"/><label>Kubernetes</label>
+                <input type="checkbox" name="skills" onChange={handleSkills} value="Docker" className="skills"/><label>Docker</label>
             </label><br/>
             <button type="submit" onClick={handleSubmit}>Submit</button>
             <button type="submit" onClick={clear} className="clear">Clear</button>
