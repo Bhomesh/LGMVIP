@@ -10,7 +10,7 @@ export default function Form({formData,handleChange,handleSkills,handleSubmit,cl
             <label>Name :<span>llllllllll</span><input type="text" name="name" value={formData.name} onChange={handleChange}/></label><br/>
             <label>Email :<span>lllllllllll</span><input type="email" name="email" value={formData.email} onChange={handleChange}/></label><br/>
             <label>Website :<span>llllll</span><input type="text" name="website" value={formData.website}onChange={handleChange}/></label><br/>
-            <label>Image Link : <input type="text" name = "imageLink" value={formData.imageLink}onChange={handleChange}/></label><br/>
+                <label>Phone number: <input type="text" name = "Pnumber" value={formData.Pnumber}onChange={handleChange}/></label><br/>
             <label>Gender : 
                 <input type="radio" name="gender" onChange={handleChange} value="Male"/><label>Male</label>
                 <input type="radio" name="gender" onChange={handleChange} value="Female"/><label>Female</label>

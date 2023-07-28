@@ -72,6 +72,7 @@ label {
   font-size: large;
 }
 button {
+  flex-flow: row;
   font-size: large;
   padding: 1% 12%;
   margin-top: 5%;

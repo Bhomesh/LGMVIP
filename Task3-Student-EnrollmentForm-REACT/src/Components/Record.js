@@ -23,9 +23,6 @@ export default function Record({cards}){
                                     </li>
                                 </ul>
                             </div>
-                            <div className="image">
-                                <img src={card["imageLink"]} />
-                            </div>
                         </div>
                         
                     ))

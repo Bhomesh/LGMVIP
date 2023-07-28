@@ -6,7 +6,7 @@ export default function EnrollmentForm(){
         name:"",
         email:"",
         website:"",
-        imageLink:"",
+        Pnumber:"",
         gender:"",
         skills:[]
     })
@@ -39,7 +39,7 @@ export default function EnrollmentForm(){
         name:"",
         email:"",
         website:"",
-        imageLink:"",
+        Pnumber:"",
         gender:"",
         skills:[]})
         setS([])
@@ -58,7 +58,7 @@ export default function EnrollmentForm(){
             name:"",
             email:"",
             website:"",
-            imageLink:"",
+            Pnumber:"",
             gender:"",
             skills:[]})
             setS([])
